@@ -1,4 +1,4 @@
-export function Projects({styles}){
+export default function Projects({styles}){
     return <>
         <hr className={styles.hr} />
         <section>

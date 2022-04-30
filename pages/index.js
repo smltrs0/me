@@ -6,9 +6,9 @@ import AboutMe from './HomeComponents/AboutMe';
 import Services from './HomeComponents/Services';
 import ButtonDarkMode from './HomeComponents/ButtonDarkMode';
 import TimeLineExperience from './HomeComponents/TimeLine/TimeLineExperience';
-import { Projects } from './HomeComponents/Proyects';
 import Contacto from "./HomeComponents/Contacto";
 import CountSetInterval from './HomeComponents/Counter/CountMethods';
+import Projects from './HomeComponents/Proyects';
 
 export default function Home() {
     const [writing, setWriting] = useState(false);
