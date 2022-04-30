@@ -6,7 +6,8 @@
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
-  assetPrefix: isProd ? '/me/' : ''
+  assetPrefix: isProd ? '/me/' : '',
+  pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts'],
 }
 
 module.exports = {
