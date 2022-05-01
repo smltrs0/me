@@ -2,13 +2,13 @@ import { useState } from 'react';
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Typing from "react-writing-effect";
-import AboutMe from './HomeComponents/AboutMe';
-import Services from './HomeComponents/Services';
-import ButtonDarkMode from './HomeComponents/ButtonDarkMode';
-import TimeLineExperience from './HomeComponents/TimeLine/TimeLineExperience';
-import Contacto from "./HomeComponents/Contacto";
-import CountSetInterval from './HomeComponents/Counter/CountMethods';
-import Projects from './HomeComponents/Proyects';
+import AboutMe from '../app/components/HomeComponents/AboutMe';
+import Services from '../app/components/HomeComponents/Services';
+import ButtonDarkMode from '../app/components/HomeComponents/ButtonDarkMode';
+import TimeLineExperience from '../app/components/HomeComponents/TimeLine/TimeLineExperience';
+import Contacto from "../app/components/HomeComponents/Contacto";
+import CountSetInterval from '../app/components/HomeComponents/Counter/CountMethods';
+import Projects from '../app/components/HomeComponents/Proyects';
 
 export default function Home() {
     const [writing, setWriting] = useState(false);
