@@ -30,4 +30,4 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           BRANCH: main
-          publish_dir: ./public
+          folder: build # The folder the action should deploy.
